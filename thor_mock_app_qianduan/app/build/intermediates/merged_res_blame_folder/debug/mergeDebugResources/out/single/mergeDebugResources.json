@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_beast_icon.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/beast_icon.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-pngs-29:/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_bell.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_bell.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_sound.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_sound.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/layout_activity_device_select.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/layout/activity_device_select.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/layout_dialog_car_selection.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/layout/dialog_car_selection.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_icon_background_white.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/icon_background_white.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-pngs-29:/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_update.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_update.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_alphax_logo.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/alphax_logo.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/layout_activity_settings.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_center_new.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_center_new.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_car_card_bg_2.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/car_card_bg_2.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/layout_activity_home.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/layout_activity_profile.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_back.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_google.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_google.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-pngs-29:/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_button_apple_login.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/button_apple_login.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_center_logo_bg.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/center_logo_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_button_apple_login_gray.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/button_apple_login_gray.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_car_main_new.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/car_main_new.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_car_card_bg_1.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/car_card_bg_1.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-pngs-29:/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/xml_backup_rules.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_logout.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_logout.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/layout_activity_volume_control.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/layout/activity_volume_control.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_apple.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_apple.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/layout_activity_login.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_main_bg.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/main_bg.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_tech_support_new.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_tech_support_new.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_add.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_tech.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_tech.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_add_button_bg.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/add_button_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_home.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_button_complete.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/button_complete.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/menu_menu_main.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_google_icon.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/google_icon.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_profile.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_close.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_car_main_image.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/car_main_image.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_profile_icon_bg.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/profile_icon_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_middle_bg_gradient.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/middle_bg_gradient.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_button_google.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/button_google.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/layout_activity_tech_support.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/layout/activity_tech_support.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_login_background.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/login_background.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_home_bg_gradient.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/home_bg_gradient.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-pngs-29:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_support.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_support.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/layout_activity_main.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-pngs-29:/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/layout_activity_sound_control.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/layout/activity_sound_control.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_profile_screen.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/profile_screen.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_settings_screen.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/settings_screen.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-pngs-29:/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_login_bg.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/login_bg.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_bottom_nav_bg.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/bottom_nav_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/layout_dialog_my_car.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/layout/dialog_my_car.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_ic_vehicle.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/ic_vehicle.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_button_google_login.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/button_google_login.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_alphax_text_logo.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/alphax_text_logo.png"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_button_apple.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/button_apple.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-debug-33:/drawable_apple_icon.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.13/com.example.myapplication.app-main-35:/drawable/apple_icon.png"
+    }
+]

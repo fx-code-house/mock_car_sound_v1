@@ -1,0 +1,142 @@
+package com.thor.app.services;
+
+import com.carsystems.thor.app.R;
+import com.google.common.primitives.Shorts;
+import kotlin.Metadata;
+
+/* compiled from: BleErrors.kt */
+@Metadata(d1 = {"\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0000\n\u0002\u0010\n\n\u0000\n\u0002\u0010\b\n\u0002\by\b\u0086\u0001\u0018\u00002\b\u0012\u0004\u0012\u00020\u00000\u0001B\u0017\b\u0002\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005¢\u0006\u0002\u0010\u0006R\u0011\u0010\u0004\u001a\u00020\u0005¢\u0006\b\n\u0000\u001a\u0004\b\u0007\u0010\bR\u0011\u0010\u0002\u001a\u00020\u0003¢\u0006\b\n\u0000\u001a\u0004\b\t\u0010\nj\u0002\b\u000bj\u0002\b\fj\u0002\b\rj\u0002\b\u000ej\u0002\b\u000fj\u0002\b\u0010j\u0002\b\u0011j\u0002\b\u0012j\u0002\b\u0013j\u0002\b\u0014j\u0002\b\u0015j\u0002\b\u0016j\u0002\b\u0017j\u0002\b\u0018j\u0002\b\u0019j\u0002\b\u001aj\u0002\b\u001bj\u0002\b\u001cj\u0002\b\u001dj\u0002\b\u001ej\u0002\b\u001fj\u0002\b j\u0002\b!j\u0002\b\"j\u0002\b#j\u0002\b$j\u0002\b%j\u0002\b&j\u0002\b'j\u0002\b(j\u0002\b)j\u0002\b*j\u0002\b+j\u0002\b,j\u0002\b-j\u0002\b.j\u0002\b/j\u0002\b0j\u0002\b1j\u0002\b2j\u0002\b3j\u0002\b4j\u0002\b5j\u0002\b6j\u0002\b7j\u0002\b8j\u0002\b9j\u0002\b:j\u0002\b;j\u0002\b<j\u0002\b=j\u0002\b>j\u0002\b?j\u0002\b@j\u0002\bAj\u0002\bBj\u0002\bCj\u0002\bDj\u0002\bEj\u0002\bFj\u0002\bGj\u0002\bHj\u0002\bIj\u0002\bJj\u0002\bKj\u0002\bLj\u0002\bMj\u0002\bNj\u0002\bOj\u0002\bPj\u0002\bQj\u0002\bRj\u0002\bSj\u0002\bTj\u0002\bUj\u0002\bVj\u0002\bWj\u0002\bXj\u0002\bYj\u0002\bZj\u0002\b[j\u0002\b\\j\u0002\b]j\u0002\b^j\u0002\b_j\u0002\b`j\u0002\baj\u0002\bbj\u0002\bcj\u0002\bdj\u0002\bej\u0002\bfj\u0002\bgj\u0002\bhj\u0002\bij\u0002\bjj\u0002\bkj\u0002\blj\u0002\bmj\u0002\bnj\u0002\boj\u0002\bpj\u0002\bqj\u0002\brj\u0002\bsj\u0002\btj\u0002\buj\u0002\bvj\u0002\bwj\u0002\bxj\u0002\byj\u0002\bzj\u0002\b{j\u0002\b|j\u0002\b}¨\u0006~"}, d2 = {"Lcom/thor/app/services/BlerErrors;", "", "shortError", "", "resId", "", "(Ljava/lang/String;ISI)V", "getResId", "()I", "getShortError", "()S", "ERROR_CODE_MOD_DEVICE_ERROR_EEPROM_WRITE_FAILED", "ERROR_CODE_MOD_DEVICE_ERROR_CAN_CONFIGURATION_IS_MISSED", "ERROR_CODE_MOD_DEVICE_ERROR_INVALID_DIAGNOSTIC_GROUP_ID", "ERROR_CODE_MOD_DEVICE_ERROR_SERIAL_NUMBER_ALREADY_WRITTEN", "ERROR_CODE_MOD_DEVICE_ERROR_SERIAL_NUMBER_WRITE_FAIL_STAGE1", "ERROR_CODE_MOD_DEVICE_ERROR_SERIAL_NUMBER_WRITE_FAIL_STAGE2", "ERROR_CODE_MOD_DEVICE_ERROR_SERIAL_NUMBER_WRITE_FAIL_STAGE3", "ERROR_CODE_MOD_DEVICE_ERROR_WRITE_TO_EEPROM_FAIL", "ERROR_CODE_MOD_DEVICE_ERROR_UNKNOWN_SETTING_ID", "ERROR_CODE_MOD_DEVICE_ERROR_UNKNOWN_FILE_TYPE", "ERROR_CODE_MOD_DEVICE_ERROR_BACKGROUND_IS_BUSY", "ERROR_CODE_MOD_DEVICE_ERROR_FILE_MOVE_FAIL", "ERROR_CODE_MOD_DEVICE_ERROR_STATISTICS_NOT_SUPPORTED", "ERROR_CODE_MOD_DEVICE_ERROR_MOD_FIRMWARE_UNSUPPORTED", "ERROR_CODE_MOD_DEVICE_ERROR_CLEAR_DIRECTORY", "ERROR_CODE_MOD_CAN_ERROR_INVALID_CAN_ID", "ERROR_CODE_MOD_CAN_ERROR_INVALID_CAN_VERSION", "ERROR_CODE_MOD_CAN_ERROR_INVALID_RULES_COUNT", "ERROR_CODE_MOD_CAN_ERROR_INVALID_BLOCKS_COUNT", "ERROR_CODE_MOD_CAN_ERROR_WRITE_CONFIG_NOT_STARTED", "ERROR_CODE_MOD_CAN_ERROR_INVALID_PARAMETER_ID", "ERROR_CODE_MOD_CAN_ERROR_INVALID_BLOCK_NUMBER", "ERROR_CODE_MOD_CAN_ERROR_INVALID_BLOCKS_SEQUENCE", "ERROR_CODE_MOD_CAN_ERROR_FILE_OPENED", "ERROR_CODE_MOD_CAN_ERROR_FILE_NOT_OPENED", "ERROR_CODE_MOD_CAN_ERROR_OPEN_FILE_FAIL", "ERROR_CODE_MOD_CAN_ERROR_CREATE_DIRECTORY_FAIL", "ERROR_CODE_MOD_CAN_ERROR_WRITE_TO_FILE_FAIL", "ERROR_CODE_MOD_CAN_ERROR_READ_FROM_FILE_FAIL", "ERROR_CODE_MOD_CAN_ERROR_MOVE_FILE_FAIL", "ERROR_CODE_MOD_CAN_ERROR_SEEK_FILE_FAIL", "ERROR_CODE_MOD_CAN_ERROR_FILE_TOO_SHORT", "ERROR_CODE_MOD_CAN_ERROR_LOADING_CONFIG", "ERROR_CODE_MOD_CAN_ERROR_INVALID_FILE_HEADER", "ERROR_CODE_MOD_CAN_ERROR_INVALID_PARAMETERS_COUNT", "ERROR_CODE_MOD_CAN_ERROR_INVALID_FILE_CRC", "ERROR_CODE_MOD_CAN_ERROR_INVALID_RULE_ID", "ERROR_CODE_MOD_CAN_ERROR_USER_CODE_FILE_TOO_LARGE", "ERROR_CODE_MOD_CAN_ERROR_OUT_OF_MEMORY", "ERROR_CODE_MOD_CAN_ERROR_UNKNOWN_USER_FORMAT", "ERROR_CODE_MOD_CAN_ERROR_UNSUPPORTED_PERIPHERAL_CAN_ASSIGN", "ERROR_CODE_MOD_CAN_ERROR_UNSUPPORTED_PERIPHERAL_UART_ASSIGN", "ERROR_CODE_MOD_CAN_ERROR_UNSUPPORTED_PERIPHERAL_ADC_CHANNEL_ASSIGN", "ERROR_CODE_MOD_CAN_ERROR_UNSUPPORTED_PERIPHERAL_ADC_CHANNEL_MODE", "ERROR_CODE_MOD_CAN_ERROR_UNSUPPORTED_PERIPHERAL_GPIO_ASSIGN", "ERROR_CODE_MOD_CAN_ERROR_UNSUPPORTED_PERIPHERAL_GPIO_MODE", "ERROR_CODE_MOD_CAN_ERROR_INVALID_FORMAT_VERSION", "ERROR_CODE_MOD_CAN_ERROR_COMMAND_NOT_SUPPORTED", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_PACKET_ID", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_PACKET_VERSION", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_SAMPLES_COUNT", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_MODES_COUNT", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_SAMPLE_RULES_COUNT", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_MODE_RULES_COUNT", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_BLOCKS_COUNT", "ERROR_CODE_MOD_SOUND_ERROR_WRITE_NOT_STARTED", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_MODE_ID", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_SAMPLE_ID", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_RULE_ID", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_PRESET_ID", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_BLOCK_NUMBER", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_BLOCKS_SEQUENCE", "ERROR_CODE_MOD_SOUND_ERROR_BACKGROUND_BUSY", "ERROR_CODE_MOD_SOUND_ERROR_FILE_OPENED", "ERROR_CODE_MOD_SOUND_ERROR_FILE_NOT_OPENED", "ERROR_CODE_MOD_SOUND_ERROR_OPEN_FILE_FAIL", "ERROR_CODE_MOD_SOUND_ERROR_CREATE_DIRECTORY_FAIL", "ERROR_CODE_MOD_SOUND_ERROR_WRITE_TO_FILE_FAIL", "ERROR_CODE_MOD_SOUND_ERROR_READ_FROM_FILE_FAIL", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_PRESETS_COUNT", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_FILE_CRC", "ERROR_CODE_MOD_SOUND_ERROR_FILE_TOO_SHORT", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_FILE_HEADER", "ERROR_CODE_MOD_SOUND_ERROR_SEEK_FILE_FAIL", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_SHOT_MODE_INDEX", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_COMMANDS_SEQUENCE", "ERROR_CODE_MOD_SOUND_ERROR_OUT_OF_MEMORY", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_LOUDSPEAKERS_COUNT", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_LOUDSPEAKER_ID", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_CONFIGURATION_SIZE", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_SOUND_PACKETS_COUNT", "ERROR_CODE_MOD_SOUND_ERROR_INVALID_SOUNDPLAY_VERSION", "ERROR_CODE_MOD_SOUND_ERROR_PRESET_IS_NOT_PLAYING", "ERROR_CODE_MOD_SOUND_ERROR_SOUND_CONTROL_ERROR", "ERROR_CODE_MOD_SOUND_ERROR_LOUDSPEAKER_ERROR", "ERROR_CODE_MOD_FIRMWARE_ERROR_INVALID_DEVICE_ID", "ERROR_CODE_MOD_FIRMWARE_ERROR_INVALID_HARDWARE_VERSION", "ERROR_CODE_MOD_FIRMWARE_ERROR_INVALID_SOFTWARE_VERSION", "ERROR_CODE_MOD_FIRMWARE_ERROR_INVALID_BLOCKS_COUNT", "ERROR_CODE_MOD_FIRMWARE_ERROR_FIRMWARE_WRITE_NOT_STARTED", "ERROR_CODE_MOD_FIRMWARE_ERROR_INVALID_BLOCK_NUMBER", "ERROR_CODE_MOD_FIRMWARE_ERROR_INVALID_BLOCKS_SEQUENCE", "ERROR_CODE_MOD_FIRMWARE_ERROR_BACKGROUND_BUSY", "ERROR_CODE_MOD_FIRMWARE_ERROR_FILE_OPENED", "ERROR_CODE_MOD_FIRMWARE_ERROR_FILE_NOT_OPENED", "ERROR_CODE_MOD_FIRMWARE_ERROR_OPEN_FILE_FAIL", "ERROR_CODE_MOD_FIRMWARE_ERROR_CREATE_DIRECTORY_FAIL", "ERROR_CODE_MOD_FIRMWARE_ERROR_WRITE_TO_FILE_FAIL", "ERROR_CODE_MOD_FIRMWARE_ERROR_WIPE_DIRECTORY_FAIL", "ERROR_CODE_MOD_DOWNLOAD_ERROR_INVALID_FILES_COUNT", "ERROR_CODE_MOD_DOWNLOAD_ERROR_INVALID_COMMANDS_SEQUENCE", "ERROR_CODE_MOD_DOWNLOAD_ERROR_NOT_ALL_FILES_DOWNLOADED", "ERROR_CODE_MOD_DOWNLOAD_ERROR_REGISTER_FILE", "ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_INVALID_COMMANDS_SEQUENCE", "ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_INVALID_BLOCKS_SEQUENCE", "ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_INVALID_FILE_SIZE", "ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_INVALID_FILE_CRC", "ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_INVALID_FILE", "ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_FILE_SYSTEM_CREATE_FILE", "ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_FILE_SYSTEM_MOVE_FILE", "ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_FILE_SYSTEM_WRITE_FILE", "ERROR_CODE_MOD_UPLOAD_ERROR_FILE_SYSTEM_OPEN_FILE", "ERROR_CODE_MOD_UPLOAD_ERROR_FILE_SYSTEM_READ_FILE", "ERROR_CODE_MOD_UPLOAD_ERROR_DEVICE_BUSY", "ERROR_CODE_MOD_UPLOAD_ERROR_INVALID_COMMANDS_SEQUENCE", "thor-1.8.7_release"}, k = 1, mv = {1, 8, 0}, xi = 48)
+/* loaded from: classes3.dex */
+public enum BlerErrors {
+    ERROR_CODE_MOD_DEVICE_ERROR_EEPROM_WRITE_FAILED(1, R.string.error_mod_device_error_eeprom_write_failed),
+    ERROR_CODE_MOD_DEVICE_ERROR_CAN_CONFIGURATION_IS_MISSED(2, R.string.error_mod_device_error_can_configuration_is_missed),
+    ERROR_CODE_MOD_DEVICE_ERROR_INVALID_DIAGNOSTIC_GROUP_ID(3, R.string.error_mod_device_error_invalid_diagnostic_group_id),
+    ERROR_CODE_MOD_DEVICE_ERROR_SERIAL_NUMBER_ALREADY_WRITTEN(4, R.string.error_mod_device_error_serial_number_already_written),
+    ERROR_CODE_MOD_DEVICE_ERROR_SERIAL_NUMBER_WRITE_FAIL_STAGE1(5, R.string.error_mod_device_error_serial_number_write_fail_stage1),
+    ERROR_CODE_MOD_DEVICE_ERROR_SERIAL_NUMBER_WRITE_FAIL_STAGE2(6, R.string.error_mod_device_error_serial_number_write_fail_stage2),
+    ERROR_CODE_MOD_DEVICE_ERROR_SERIAL_NUMBER_WRITE_FAIL_STAGE3(7, R.string.error_mod_device_error_serial_number_write_fail_stage3),
+    ERROR_CODE_MOD_DEVICE_ERROR_WRITE_TO_EEPROM_FAIL(8, R.string.error_mod_device_error_write_to_eeprom_fail),
+    ERROR_CODE_MOD_DEVICE_ERROR_UNKNOWN_SETTING_ID(9, R.string.error_mod_device_error_unknown_setting_id),
+    ERROR_CODE_MOD_DEVICE_ERROR_UNKNOWN_FILE_TYPE(10, R.string.error_mod_device_error_unknown_file_type),
+    ERROR_CODE_MOD_DEVICE_ERROR_BACKGROUND_IS_BUSY(11, R.string.error_mod_device_error_background_is_busy),
+    ERROR_CODE_MOD_DEVICE_ERROR_FILE_MOVE_FAIL(12, R.string.error_mod_device_error_file_move_fail),
+    ERROR_CODE_MOD_DEVICE_ERROR_STATISTICS_NOT_SUPPORTED(13, R.string.error_mod_device_error_statistics_not_supported),
+    ERROR_CODE_MOD_DEVICE_ERROR_MOD_FIRMWARE_UNSUPPORTED(14, R.string.error_mod_device_error_mod_firmware_unsupported),
+    ERROR_CODE_MOD_DEVICE_ERROR_CLEAR_DIRECTORY(15, R.string.error_mod_device_error_clear_directory),
+    ERROR_CODE_MOD_CAN_ERROR_INVALID_CAN_ID(4096, R.string.error_mod_can_error_invalid_can_id),
+    ERROR_CODE_MOD_CAN_ERROR_INVALID_CAN_VERSION(4097, R.string.error_mod_can_error_invalid_can_version),
+    ERROR_CODE_MOD_CAN_ERROR_INVALID_RULES_COUNT(4098, R.string.error_mod_can_error_invalid_rules_count),
+    ERROR_CODE_MOD_CAN_ERROR_INVALID_BLOCKS_COUNT(4099, R.string.error_mod_can_error_invalid_blocks_count),
+    ERROR_CODE_MOD_CAN_ERROR_WRITE_CONFIG_NOT_STARTED(4100, R.string.error_mod_can_error_write_config_not_started),
+    ERROR_CODE_MOD_CAN_ERROR_INVALID_PARAMETER_ID(4101, R.string.error_mod_can_error_invalid_parameter_id),
+    ERROR_CODE_MOD_CAN_ERROR_INVALID_BLOCK_NUMBER(4102, R.string.error_mod_can_error_invalid_block_number),
+    ERROR_CODE_MOD_CAN_ERROR_INVALID_BLOCKS_SEQUENCE(4103, R.string.error_mod_can_error_invalid_blocks_sequence),
+    ERROR_CODE_MOD_CAN_ERROR_FILE_OPENED(4104, R.string.error_mod_can_error_file_opened),
+    ERROR_CODE_MOD_CAN_ERROR_FILE_NOT_OPENED(4105, R.string.error_mod_can_error_file_not_opened),
+    ERROR_CODE_MOD_CAN_ERROR_OPEN_FILE_FAIL(4106, R.string.error_mod_can_error_open_file_fail),
+    ERROR_CODE_MOD_CAN_ERROR_CREATE_DIRECTORY_FAIL(4107, R.string.error_mod_can_error_create_directory_fail),
+    ERROR_CODE_MOD_CAN_ERROR_WRITE_TO_FILE_FAIL(4108, R.string.error_mod_can_error_write_to_file_fail),
+    ERROR_CODE_MOD_CAN_ERROR_READ_FROM_FILE_FAIL(4109, R.string.error_mod_can_error_read_from_file_fail),
+    ERROR_CODE_MOD_CAN_ERROR_MOVE_FILE_FAIL(4110, R.string.error_mod_can_error_move_file_fail),
+    ERROR_CODE_MOD_CAN_ERROR_SEEK_FILE_FAIL(4111, R.string.error_mod_can_error_seek_file_fail),
+    ERROR_CODE_MOD_CAN_ERROR_FILE_TOO_SHORT(4112, R.string.error_mod_can_error_file_too_short),
+    ERROR_CODE_MOD_CAN_ERROR_LOADING_CONFIG(4113, R.string.error_mod_can_error_loading_config),
+    ERROR_CODE_MOD_CAN_ERROR_INVALID_FILE_HEADER(4114, R.string.error_mod_can_error_invalid_file_header),
+    ERROR_CODE_MOD_CAN_ERROR_INVALID_PARAMETERS_COUNT(4115, R.string.error_mod_can_error_invalid_parameters_count),
+    ERROR_CODE_MOD_CAN_ERROR_INVALID_FILE_CRC(4116, R.string.error_mod_can_error_invalid_file_crc),
+    ERROR_CODE_MOD_CAN_ERROR_INVALID_RULE_ID(4117, R.string.error_mod_can_error_invalid_rule_id),
+    ERROR_CODE_MOD_CAN_ERROR_USER_CODE_FILE_TOO_LARGE(4118, R.string.error_mod_can_error_user_code_file_too_large),
+    ERROR_CODE_MOD_CAN_ERROR_OUT_OF_MEMORY(4119, R.string.error_mod_can_error_out_of_memory),
+    ERROR_CODE_MOD_CAN_ERROR_UNKNOWN_USER_FORMAT(4120, R.string.error_mod_can_error_unknown_user_format),
+    ERROR_CODE_MOD_CAN_ERROR_UNSUPPORTED_PERIPHERAL_CAN_ASSIGN(4121, R.string.error_mod_can_error_unsupported_peripheral_can_assign),
+    ERROR_CODE_MOD_CAN_ERROR_UNSUPPORTED_PERIPHERAL_UART_ASSIGN(4122, R.string.error_mod_can_error_unsupported_peripheral_uart_assign),
+    ERROR_CODE_MOD_CAN_ERROR_UNSUPPORTED_PERIPHERAL_ADC_CHANNEL_ASSIGN(4123, R.string.error_mod_can_error_unsupported_peripheral_adc_channel_assign),
+    ERROR_CODE_MOD_CAN_ERROR_UNSUPPORTED_PERIPHERAL_ADC_CHANNEL_MODE(4124, R.string.error_mod_can_error_unsupported_peripheral_adc_channel_mode),
+    ERROR_CODE_MOD_CAN_ERROR_UNSUPPORTED_PERIPHERAL_GPIO_ASSIGN(4125, R.string.error_mod_can_error_unsupported_peripheral_gpio_assign),
+    ERROR_CODE_MOD_CAN_ERROR_UNSUPPORTED_PERIPHERAL_GPIO_MODE(4126, R.string.error_mod_can_error_unsupported_peripheral_gpio_mode),
+    ERROR_CODE_MOD_CAN_ERROR_INVALID_FORMAT_VERSION(4127, R.string.error_mod_can_error_invalid_format_version),
+    ERROR_CODE_MOD_CAN_ERROR_COMMAND_NOT_SUPPORTED(4128, R.string.error_mod_can_error_command_not_supported),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_PACKET_ID(8192, R.string.error_mod_sound_error_invalid_packet_id),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_PACKET_VERSION(8193, R.string.error_mod_sound_error_invalid_packet_version),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_SAMPLES_COUNT(8194, R.string.error_mod_sound_error_invalid_samples_count),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_MODES_COUNT(8195, R.string.error_mod_sound_error_invalid_modes_count),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_SAMPLE_RULES_COUNT(8196, R.string.error_mod_sound_error_invalid_sample_rules_count),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_MODE_RULES_COUNT(8197, R.string.error_mod_sound_error_invalid_mode_rules_count),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_BLOCKS_COUNT(8198, R.string.error_mod_sound_error_invalid_blocks_count),
+    ERROR_CODE_MOD_SOUND_ERROR_WRITE_NOT_STARTED(8199, R.string.error_mod_sound_error_write_not_started),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_MODE_ID(8200, R.string.error_mod_sound_error_invalid_mode_id),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_SAMPLE_ID(8201, R.string.error_mod_sound_error_invalid_sample_id),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_RULE_ID(8202, R.string.error_mod_sound_error_invalid_rule_id),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_PRESET_ID(8203, R.string.error_mod_sound_error_invalid_preset_id),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_BLOCK_NUMBER(8204, R.string.error_mod_sound_error_invalid_block_number),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_BLOCKS_SEQUENCE(8205, R.string.error_mod_sound_error_invalid_blocks_sequence),
+    ERROR_CODE_MOD_SOUND_ERROR_BACKGROUND_BUSY(8206, R.string.error_mod_sound_error_background_busy),
+    ERROR_CODE_MOD_SOUND_ERROR_FILE_OPENED(8207, R.string.error_mod_sound_error_file_opened),
+    ERROR_CODE_MOD_SOUND_ERROR_FILE_NOT_OPENED(8208, R.string.error_mod_sound_error_file_not_opened),
+    ERROR_CODE_MOD_SOUND_ERROR_OPEN_FILE_FAIL(8209, R.string.error_mod_sound_error_open_file_fail),
+    ERROR_CODE_MOD_SOUND_ERROR_CREATE_DIRECTORY_FAIL(8210, R.string.error_mod_sound_error_create_directory_fail),
+    ERROR_CODE_MOD_SOUND_ERROR_WRITE_TO_FILE_FAIL(8211, R.string.error_mod_sound_error_write_to_file_fail),
+    ERROR_CODE_MOD_SOUND_ERROR_READ_FROM_FILE_FAIL(8212, R.string.error_mod_sound_error_read_from_file_fail),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_PRESETS_COUNT(8213, R.string.error_mod_sound_error_invalid_presets_count),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_FILE_CRC(8214, R.string.error_mod_sound_error_invalid_file_crc),
+    ERROR_CODE_MOD_SOUND_ERROR_FILE_TOO_SHORT(8215, R.string.error_mod_sound_error_file_too_short),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_FILE_HEADER(8216, R.string.error_mod_sound_error_invalid_file_header),
+    ERROR_CODE_MOD_SOUND_ERROR_SEEK_FILE_FAIL(8217, R.string.error_mod_sound_error_seek_file_fail),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_SHOT_MODE_INDEX(8218, R.string.error_mod_sound_error_invalid_shot_mode_index),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_COMMANDS_SEQUENCE(8219, R.string.error_mod_sound_error_invalid_commands_sequence),
+    ERROR_CODE_MOD_SOUND_ERROR_OUT_OF_MEMORY(8220, R.string.error_mod_sound_error_out_of_memory),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_LOUDSPEAKERS_COUNT(8221, R.string.error_mod_sound_error_invalid_loudspeakers_count),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_LOUDSPEAKER_ID(8222, R.string.error_mod_sound_error_invalid_loudspeaker_id),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_CONFIGURATION_SIZE(8223, R.string.error_mod_sound_error_invalid_configuration_size),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_SOUND_PACKETS_COUNT(8224, R.string.error_mod_sound_error_invalid_sound_packets_count),
+    ERROR_CODE_MOD_SOUND_ERROR_INVALID_SOUNDPLAY_VERSION(8225, R.string.error_mod_sound_error_invalid_soundplay_version),
+    ERROR_CODE_MOD_SOUND_ERROR_PRESET_IS_NOT_PLAYING(8226, R.string.error_mod_sound_error_preset_is_not_playing),
+    ERROR_CODE_MOD_SOUND_ERROR_SOUND_CONTROL_ERROR(8227, R.string.error_mod_sound_error_sound_control_error),
+    ERROR_CODE_MOD_SOUND_ERROR_LOUDSPEAKER_ERROR(8228, R.string.error_mod_sound_error_loudspeaker_error),
+    ERROR_CODE_MOD_FIRMWARE_ERROR_INVALID_DEVICE_ID(12288, R.string.error_mod_firmware_error_invalid_device_id),
+    ERROR_CODE_MOD_FIRMWARE_ERROR_INVALID_HARDWARE_VERSION(12289, R.string.error_mod_firmware_error_invalid_hardware_version),
+    ERROR_CODE_MOD_FIRMWARE_ERROR_INVALID_SOFTWARE_VERSION(12290, R.string.error_mod_firmware_error_invalid_software_version),
+    ERROR_CODE_MOD_FIRMWARE_ERROR_INVALID_BLOCKS_COUNT(12291, R.string.error_mod_firmware_error_invalid_blocks_count),
+    ERROR_CODE_MOD_FIRMWARE_ERROR_FIRMWARE_WRITE_NOT_STARTED(12292, R.string.error_mod_firmware_error_firmware_write_not_started),
+    ERROR_CODE_MOD_FIRMWARE_ERROR_INVALID_BLOCK_NUMBER(12293, R.string.error_mod_firmware_error_invalid_block_number),
+    ERROR_CODE_MOD_FIRMWARE_ERROR_INVALID_BLOCKS_SEQUENCE(12294, R.string.error_mod_firmware_error_invalid_blocks_sequence),
+    ERROR_CODE_MOD_FIRMWARE_ERROR_BACKGROUND_BUSY(12295, R.string.error_mod_firmware_error_background_busy),
+    ERROR_CODE_MOD_FIRMWARE_ERROR_FILE_OPENED(12296, R.string.error_mod_firmware_error_file_opened),
+    ERROR_CODE_MOD_FIRMWARE_ERROR_FILE_NOT_OPENED(12297, R.string.error_mod_firmware_error_file_not_opened),
+    ERROR_CODE_MOD_FIRMWARE_ERROR_OPEN_FILE_FAIL(12298, R.string.error_mod_firmware_error_open_file_fail),
+    ERROR_CODE_MOD_FIRMWARE_ERROR_CREATE_DIRECTORY_FAIL(12299, R.string.error_mod_firmware_error_create_directory_fail),
+    ERROR_CODE_MOD_FIRMWARE_ERROR_WRITE_TO_FILE_FAIL(12300, R.string.error_mod_firmware_error_write_to_file_fail),
+    ERROR_CODE_MOD_FIRMWARE_ERROR_WIPE_DIRECTORY_FAIL(12301, R.string.error_mod_firmware_error_wipe_directory_fail),
+    ERROR_CODE_MOD_DOWNLOAD_ERROR_INVALID_FILES_COUNT(Shorts.MAX_POWER_OF_TWO, R.string.error_mod_download_error_invalid_files_count),
+    ERROR_CODE_MOD_DOWNLOAD_ERROR_INVALID_COMMANDS_SEQUENCE(16385, R.string.error_mod_download_error_invalid_commands_sequence),
+    ERROR_CODE_MOD_DOWNLOAD_ERROR_NOT_ALL_FILES_DOWNLOADED(16386, R.string.error_mod_download_error_not_all_files_downloaded),
+    ERROR_CODE_MOD_DOWNLOAD_ERROR_REGISTER_FILE(16387, R.string.error_mod_download_error_register_file),
+    ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_INVALID_COMMANDS_SEQUENCE(20480, R.string.error_mod_download_file_error_invalid_commands_sequence),
+    ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_INVALID_BLOCKS_SEQUENCE(20481, R.string.error_mod_download_file_error_invalid_blocks_sequence),
+    ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_INVALID_FILE_SIZE(20482, R.string.error_mod_download_file_error_invalid_file_size),
+    ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_INVALID_FILE_CRC(20483, R.string.error_mod_download_file_error_invalid_file_crc),
+    ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_INVALID_FILE(20484, R.string.error_mod_download_file_error_invalid_file),
+    ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_FILE_SYSTEM_CREATE_FILE(20485, R.string.error_mod_download_file_error_file_system_create_file),
+    ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_FILE_SYSTEM_MOVE_FILE(20486, R.string.error_mod_download_file_error_file_system_move_file),
+    ERROR_CODE_MOD_DOWNLOAD_FILE_ERROR_FILE_SYSTEM_WRITE_FILE(20487, R.string.error_mod_download_file_error_file_system_write_file),
+    ERROR_CODE_MOD_UPLOAD_ERROR_FILE_SYSTEM_OPEN_FILE(24576, R.string.error_mod_upload_error_file_system_open_file),
+    ERROR_CODE_MOD_UPLOAD_ERROR_FILE_SYSTEM_READ_FILE(24577, R.string.error_mod_upload_error_file_system_read_file),
+    ERROR_CODE_MOD_UPLOAD_ERROR_DEVICE_BUSY(24578, R.string.error_mod_upload_error_device_busy),
+    ERROR_CODE_MOD_UPLOAD_ERROR_INVALID_COMMANDS_SEQUENCE(24579, R.string.error_mod_upload_error_invalid_commands_sequence);
+
+    private final int resId;
+    private final short shortError;
+
+    BlerErrors(short s, int i) {
+        this.shortError = s;
+        this.resId = i;
+    }
+
+    public final int getResId() {
+        return this.resId;
+    }
+
+    public final short getShortError() {
+        return this.shortError;
+    }
+}

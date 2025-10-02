@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/apple/Desktop/thor_mock_app_three 3/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/apple/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/apple/Desktop/thor_mock_app_three 3/app/.cxx/Debug/3g4m3873/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/apple/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/apple/Desktop/thor_mock_app_three 3/app/.cxx/Debug/3g4m3873/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "myapplication::@6890427a1f51a3e7e1df": {
+      "artifactName": "myapplication",
+      "abi": "x86_64",
+      "output": "/Users/apple/Desktop/thor_mock_app_three 3/app/build/intermediates/cxx/Debug/3g4m3873/obj/x86_64/libmyapplication.so",
+      "runtimeFiles": []
+    }
+  }
+}

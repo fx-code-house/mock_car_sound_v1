@@ -1,0 +1,112 @@
+{
+  "result": true,
+  "items": [{
+    "id_car_generation": 6780,
+    "name": "W108",
+    "id_car_model": 20364,
+    "year_begin": "1965",
+    "year_end": "1972"
+  }, {
+    "id_car_generation": 1276,
+    "name": "W116",
+    "id_car_model": 20364,
+    "year_begin": "1972",
+    "year_end": "1980"
+  }, {
+    "id_car_generation": 7327,
+    "name": "W126",
+    "id_car_model": 20364,
+    "year_begin": "1979",
+    "year_end": "1985"
+  }, {
+    "id_car_generation": 10444,
+    "name": "W126 / C126",
+    "id_car_model": 20364,
+    "year_begin": "1979",
+    "year_end": "1985"
+  }, {
+    "id_car_generation": 10443,
+    "name": "W126 / C126 [facelift]",
+    "id_car_model": 20364,
+    "year_begin": "1985",
+    "year_end": "1991"
+  }, {
+    "id_car_generation": 7326,
+    "name": "W126 [facelift]",
+    "id_car_model": 20364,
+    "year_begin": "1985",
+    "year_end": "1991"
+  }, {
+    "id_car_generation": 7325,
+    "name": "W140",
+    "id_car_model": 20364,
+    "year_begin": "1991",
+    "year_end": "1995"
+  }, {
+    "id_car_generation": 10440,
+    "name": "W140 [2th facelift]",
+    "id_car_model": 20364,
+    "year_begin": "1996",
+    "year_end": "1998"
+  }, {
+    "id_car_generation": 7324,
+    "name": "W140 [facelift]",
+    "id_car_model": 20364,
+    "year_begin": "1995",
+    "year_end": "1998"
+  }, {
+    "id_car_generation": 10442,
+    "name": "W140/C140",
+    "id_car_model": 20364,
+    "year_begin": "1991",
+    "year_end": "1993"
+  }, {
+    "id_car_generation": 10441,
+    "name": "W140/C140 [facelift]",
+    "id_car_model": 20364,
+    "year_begin": "1994",
+    "year_end": "1996"
+  }, {
+    "id_car_generation": 6066,
+    "name": "W220",
+    "id_car_model": 20364,
+    "year_begin": "1998",
+    "year_end": "2002"
+  }, {
+    "id_car_generation": 1274,
+    "name": "W220 [facelift]",
+    "id_car_model": 20364,
+    "year_begin": "2002",
+    "year_end": "2005"
+  }, {
+    "id_car_generation": 1273,
+    "name": "W221",
+    "id_car_model": 20364,
+    "year_begin": "2005",
+    "year_end": "2009"
+  }, {
+    "id_car_generation": 9057,
+    "name": "W221 [facelift]",
+    "id_car_model": 20364,
+    "year_begin": "2009",
+    "year_end": "2013"
+  }, {
+    "id_car_generation": 10435,
+    "name": "W222/C217/A217",
+    "id_car_model": 20364,
+    "year_begin": "2013",
+    "year_end": "2017"
+  }, {
+    "id_car_generation": 10887,
+    "name": "W222/C217/A217 [facelift]",
+    "id_car_model": 20364,
+    "year_begin": "2017",
+    "year_end": "2020"
+  }, {
+    "id_car_generation": 301621,
+    "name": "W223",
+    "id_car_model": 20364,
+    "year_begin": "2020",
+    "year_end": "2023"
+  }]
+}

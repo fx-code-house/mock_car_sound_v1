@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphaX 汽车声音控制系统</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-brand">AlphaX</div>
+        <div class="nav-buttons">
+            <button class="nav-btn active" data-page="home">首页</button>
+            <button class="nav-btn" data-page="login">登录</button>
+            <button class="nav-btn" data-page="profile">我的</button>
+            <button class="nav-btn" data-page="settings">设置</button>
+            <button class="nav-btn" data-page="download">下载</button>
+            <button class="nav-btn" data-page="switch-car">换车</button>
+        </div>
+    </nav>
+
+    <!-- 页面容器 -->
+    <div class="page-container">
+        <!-- 首页 -->
+        <div class="page active" id="home">
+            <div class="page-header">
+                <h1>首页</h1>
+                <div class="status-info">
+                    <span class="connection-status">已连接</span>
+                    <span class="device-model">型号：Mercedes-Benz S-Class</span>
+                </div>
+            </div>
+
+            <div class="content-grid">
+                <div class="card">
+                    <h3>我的车</h3>
+                    <div class="car-info">
+                        <div class="car-model">Mercedes-Benz</div>
+                        <div class="car-series">S-Class W222</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>声音控制</h3>
+                    <div class="sound-controls">
+                        <button class="sound-btn">怠速声</button>
+                        <button class="sound-btn">声浪1</button>
+                        <button class="sound-btn">声浪2</button>
+                        <button class="sound-btn">声浪3</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>声浪设置</h3>
+                    <div class="sound-settings">
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="slider">开启启动声</span>
+                        </label>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider">关闭启动声</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>常用功能</h3>
+                    <div class="function-buttons">
+                        <button class="function-btn">动态启动</button>
+                        <button class="function-btn">启动咆哮</button>
+                        <button class="function-btn">回火放炮声</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 登录页面 -->
+        <div class="page" id="login">
+            <div class="page-header">
+                <h1>登录</h1>
+            </div>
+            <div class="login-container">
+                <form class="login-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="用户名" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" placeholder="密码" required>
+                    </div>
+                    <button type="submit" class="login-btn">登录</button>
+                </form>
+                <div class="social-login">
+                    <button class="social-btn apple">Sign in with Apple</button>
+                    <button class="social-btn google">Sign in with Google</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 我的页面 -->
+        <div class="page" id="profile">
+            <div class="page-header">
+                <h1>我的</h1>
+            </div>
+            <div class="profile-content">
+                <div class="card">
+                    <h3>我的汽车</h3>
+                    <div class="car-list">
+                        <div class="car-item active">
+                            <div class="car-name">Mercedes-Benz S-Class</div>
+                            <div class="car-model">W222/C217/A217</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>我的声音</h3>
+                    <div class="sound-library">
+                        <div class="sound-item">AMG GT</div>
+                        <div class="sound-item">AMG GLE</div>
+                        <div class="sound-item">Renault Megane RS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 设置页面 -->
+        <div class="page" id="settings">
+            <div class="page-header">
+                <h1>设置</h1>
+            </div>
+            <div class="settings-content">
+                <div class="card">
+                    <h3>系统设置</h3>
+                    <div class="settings-list">
+                        <div class="setting-item">
+                            <span>检查更新</span>
+                            <button class="setting-btn">检查</button>
+                        </div>
+                        <div class="setting-item">
+                            <span>车辆固件</span>
+                            <button class="setting-btn">更新</button>
+                        </div>
+                        <div class="setting-item">
+                            <span>演示模式</span>
+                            <label class="toggle">
+                                <input type="checkbox">
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>支持</h3>
+                    <div class="settings-list">
+                        <div class="setting-item">
+                            <span>技术支持</span>
+                            <button class="setting-btn">联系</button>
+                        </div>
+                        <div class="setting-item">
+                            <span>版本信息</span>
+                            <span class="version">1.0.0 (0)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>账户</h3>
+                    <div class="settings-list">
+                        <div class="setting-item">
+                            <span>登出设备</span>
+                            <button class="setting-btn danger">登出</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 下载页面 -->
+        <div class="page" id="download">
+            <div class="page-header">
+                <h1>下载</h1>
+                <div class="download-status">
+                    <span>正在下载声音资源</span>
+                    <span class="progress">55%</span>
+                </div>
+            </div>
+            <div class="download-content">
+                <div class="card">
+                    <h3>声音资源</h3>
+                    <div class="download-list">
+                        <div class="download-item">
+                            <span class="sound-name">AMG GT 声音包</span>
+                            <span class="download-progress">已下载</span>
+                        </div>
+                        <div class="download-item">
+                            <span class="sound-name">McLaren 声音包</span>
+                            <span class="download-progress downloading">下载中... 55%</span>
+                        </div>
+                        <div class="download-item">
+                            <span class="sound-name">Renault Megane RS</span>
+                            <span class="download-progress">待下载</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>添加汽车声音</h3>
+                    <div class="add-sound">
+                        <button class="add-btn">浏览声音库</button>
+                        <p class="add-description">从声音库中选择更多汽车声音</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 换车页面 -->
+        <div class="page" id="switch-car">
+            <div class="page-header">
+                <h1>换车</h1>
+            </div>
+            <div class="switch-car-content">
+                <div class="card">
+                    <h3>选择品牌</h3>
+                    <div class="brand-grid">
+                        <button class="brand-btn active">Mercedes-Benz</button>
+                        <button class="brand-btn">Toyota</button>
+                        <button class="brand-btn">McLaren</button>
+                        <button class="brand-btn">Renault</button>
+                        <button class="brand-btn">Jeep</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>选择系列</h3>
+                    <div class="series-grid">
+                        <button class="series-btn active">S-Class</button>
+                        <button class="series-btn">AMG GT</button>
+                        <button class="series-btn">AMG GLE</button>
+                        <button class="series-btn">Camry</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>选择型号</h3>
+                    <div class="model-list">
+                        <div class="model-item active">
+                            <span class="model-name">W222/C217/A217</span>
+                            <span class="model-type">Sedan 4-doors</span>
+                        </div>
+                        <div class="model-item">
+                            <span class="model-name">W168 (2004-2008)</span>
+                            <span class="model-type">Hatchback</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>设备连接</h3>
+                    <div class="device-connection">
+                        <div class="input-group">
+                            <input type="text" placeholder="请输入新设备号" class="device-input">
+                        </div>
+                        <button class="connect-btn">连接设备</button>
+                        <div class="scan-status">
+                            <span>Scanning...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="confirm-btn">确定</button>
+                    <button class="complete-btn">完成</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

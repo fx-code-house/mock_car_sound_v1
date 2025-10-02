@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/car_card_bg_1"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <!-- 头部 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的汽车"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/close_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="3dp"
+            android:src="@drawable/ic_close"
+            android:contentDescription="关闭" />
+
+    </RelativeLayout>
+
+    <!-- 车辆信息列表 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 品牌 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="8dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="品牌"
+                android:textColor="#AAAAAA"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/brand_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Toyota"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:gravity="end" />
+
+        </LinearLayout>
+
+        <!-- 分割线 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#3A4A5C" />
+
+        <!-- 型号 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="8dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="型号："
+                android:textColor="#AAAAAA"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/model_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Camry"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:gravity="end" />
+
+        </LinearLayout>
+
+        <!-- 分割线 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#3A4A5C" />
+
+        <!-- dai6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="8dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="dai6："
+                android:textColor="#AAAAAA"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/generation_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="XV50"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:gravity="end" />
+
+        </LinearLayout>
+
+        <!-- 分割线 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#3A4A5C" />
+
+        <!-- 系列 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="8dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="系列"
+                android:textColor="#AAAAAA"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/series_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sedan 4-doors"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:gravity="end" />
+
+        </LinearLayout>
+
+        <!-- 分割线 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#3A4A5C" />
+
+        <!-- Status -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="8dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textColor="#AAAAAA"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/status_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="已连接"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:gravity="end" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- 换车按钮 -->
+    <Button
+        android:id="@+id/change_car_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_complete"
+        android:text="换车"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

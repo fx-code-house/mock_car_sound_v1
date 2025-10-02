@@ -1,0 +1,21 @@
+package com.google.android.gms.internal.wearable;
+
+/* compiled from: com.google.android.gms:play-services-wearable@@17.1.0 */
+/* loaded from: classes2.dex */
+public enum zzen {
+    INT(0),
+    LONG(0L),
+    FLOAT(Float.valueOf(0.0f)),
+    DOUBLE(Double.valueOf(0.0d)),
+    BOOLEAN(false),
+    STRING(""),
+    BYTE_STRING(zzau.zzb),
+    ENUM(null),
+    MESSAGE(null);
+
+    private final Object zzj;
+
+    zzen(Object obj) {
+        this.zzj = obj;
+    }
+}

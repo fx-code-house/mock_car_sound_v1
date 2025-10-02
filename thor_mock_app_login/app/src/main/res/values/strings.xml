@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    
+    <!-- Google Sign-In Configuration -->
+    <string name="default_web_client_id">455029952822-jgf383mhjucm53gcgks6r74sijc47r1c.apps.googleusercontent.com</string>
+</resources>

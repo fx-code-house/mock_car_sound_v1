@@ -1,0 +1,39 @@
+{
+  "sketch_info": {
+    "appVersion": "2025.2.2",
+    "build": 205349,
+    "version": 173,
+    "variant": "NONAPPSTORE",
+    "created": {
+      "commit": "adf8ff5eb570e3889ffc061642d33207f10b6822",
+      "appVersion": "2025.2.2",
+      "build": 205349,
+      "app": "com.bohemiancoding.sketch3",
+      "coeditCompatibilityVersion": 164,
+      "compatibilityVersion": 99,
+      "version": 173,
+      "variant": "NONAPPSTORE"
+    },
+    "commit": "adf8ff5eb570e3889ffc061642d33207f10b6822"
+  },
+  "user_data": {
+    "document": {
+      "pageListCollapsed": 0,
+      "pageListHeight": 213
+    },
+    "3A32758E-96E1-4F29-B73E-616E68E0C6DA": {
+      "lastViewed": 780326390.583854,
+      "scrollOrigin": "{22423, 11915}",
+      "zoomValue": 9.865853658536585
+    },
+    "A37E5689-D4A7-426A-97B6-30682016EE6E": {
+      "zoomValue": 1.231433506044905,
+      "scrollOrigin": "{31, 209}",
+      "lastViewed": 780326314.750301
+    }
+  },
+  "fonts": [],
+  "mini_components": [],
+  "external_references": [],
+  "custom_data": {}
+}

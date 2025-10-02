@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2C3A47">
+
+    <!-- Top Section with Close Button -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingTop="10dp">
+
+        <!-- Back Button -->
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:src="@android:drawable/ic_menu_revert"
+            android:tint="#FFFFFF"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="技术支持"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Bell Icon -->
+        <ImageView
+            android:id="@+id/bell_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:background="#4A4A4A"
+            android:padding="8dp"
+            android:src="@android:drawable/ic_dialog_email" />
+
+    </RelativeLayout>
+
+    <!-- BEAST Logo Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+
+        <!-- BEAST Icon -->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/beast_icon"
+            android:tint="#FFFFFF" />
+
+        <!-- BEAST Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="BEAST"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ELECTRONIC EXHAUST"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="40dp"
+            android:text="Beast Introduction to Automotive Simulated Sound and Detailed Content ntroduction to Automotive Simulated Sound and Detailed Content ntroduction to Automotive Simulated Sound and Detailed Content"
+            android:textColor="#CCCCCC"
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp" />
+
+    </LinearLayout>
+
+    <!-- Menu Items Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical"
+        android:background="#4A5568"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="常用功能"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Update Software -->
+        <LinearLayout
+            android:id="@+id/update_software_item"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#3A4A5C"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_popup_sync"
+                android:tint="#FFFFFF" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:text="更新软件"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_menu_more"
+                android:tint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <!-- Demonstration Mode -->
+        <LinearLayout
+            android:id="@+id/demonstration_mode_item"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#3A4A5C"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_view"
+                android:tint="#FFFFFF" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:text="演示模式"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_menu_more"
+                android:tint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <!-- Support -->
+        <LinearLayout
+            android:id="@+id/support_item"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#3A4A5C"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_help"
+                android:tint="#FFFFFF" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:text="支持"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_menu_more"
+                android:tint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <!-- Settings -->
+        <LinearLayout
+            android:id="@+id/settings_item"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#3A4A5C"
+            android:padding="16dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_preferences"
+                android:tint="#FFFFFF" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:text="设置"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_menu_more"
+                android:tint="#FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

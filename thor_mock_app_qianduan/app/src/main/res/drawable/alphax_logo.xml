@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="56dp"
+    android:height="56dp"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+
+    <!-- Background Circle -->
+    <path android:fillColor="#000000"
+        android:pathData="M28,28m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0" />
+
+    <!-- ALPHAX Text -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M14,20h2l1.5,4h3L22,20h2l-3.5,8h-1.5zM26,20h6v1.5h-4.5v2h4v1.5h-4v2h4.5v1.5h-6zM34,20h1.5v6.5h4.5v1.5h-6z" />
+</vector>

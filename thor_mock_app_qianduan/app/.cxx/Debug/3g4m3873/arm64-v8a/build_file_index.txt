@@ -1,0 +1,1 @@
+/Users/apple/Desktop/thor_mock_app/app/src/main/cpp/CMakeLists.txt

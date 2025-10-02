@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- 上半屏幕：日志显示区域 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#f5f7fa"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#e1e8ed"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Thor 通信日志"
+            android:textColor="#2c3e50"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:id="@+id/log_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/log_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:padding="4dp"
+                android:text="等待连接 Thor 设备..."
+                android:textColor="#34495e"
+                android:textSize="12sp" />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <!-- 分割线 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#bdc3c7" />
+
+    <!-- 下半屏幕：操作按钮区域 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#f5f7fa"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#e1e8ed"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="操作面板"
+            android:textColor="#2c3e50"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- 状态指示器 -->
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#ecf0f1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="未连接"
+            android:textColor="#7f8c8d"
+            android:textSize="14sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_connect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#3498db"
+                    android:text="连接 Thor 设备"
+                    android:textColor="#ffffff" />
+
+                <!--                <Button-->
+                <!--                    android:id="@+id/btn_cmd_8"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="命令8 - 心跳测试"-->
+                <!--                    android:enabled="false"-->
+                <!--                    android:layout_marginBottom="8dp"-->
+                <!--                    android:backgroundTint="#2ecc71"-->
+                <!--                    android:textColor="#ffffff" />-->
+
+                <Button
+                    android:id="@+id/btn_cmd_58"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#e74c3c"
+                    android:enabled="false"
+                    android:text="58 读取设备设置"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_cmd_59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#3498db"
+                    android:enabled="false"
+                    android:text="59 写入设备设置"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_cmd_128"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#e74c3c"
+                    android:enabled="false"
+                    android:text="128 开始上传"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_cmd_129"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#3498db"
+                    android:enabled="false"
+                    android:text="129 读取上传块"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_cmd_130"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#9b59b6"
+                    android:enabled="false"
+                    android:text="130 停止上传"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_cmd_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#e67e22"
+                    android:enabled="false"
+                    android:text="12 设备锁定/解锁控制"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_cmd_56"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#1abc9c"
+                    android:enabled="false"
+                    android:text="56 读取通用数据参数"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_cmd_69"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#1abc9c"
+                    android:enabled="false"
+                    android:text="69 选择/激活预设"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_cmd_71"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#8e44ad"
+                    android:enabled="false"
+                    android:text="71 读取已安装音效包"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_cmd_117"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#1abc9c"
+                    android:enabled="false"
+                    android:text="117 获取下载状态"
+                    android:textColor="#ffffff" />
+
+                <!--                <Button-->
+                <!--                    android:id="@+id/btn_cmd_112"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginBottom="12dp"-->
+                <!--                    android:backgroundTint="#1abc9c"-->
+                <!--                    android:enabled="false"-->
+                <!--                    android:text="112 开始下载组"-->
+                <!--                    android:textColor="#ffffff" />-->
+
+                <!--                <Button-->
+                <!--                    android:id="@+id/btn_cmd_113"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginBottom="12dp"-->
+                <!--                    android:backgroundTint="#1abc9c"-->
+                <!--                    android:enabled="false"-->
+                <!--                    android:text="113 开始下载文件"-->
+                <!--                    android:textColor="#ffffff" />-->
+
+                <Button
+                    android:id="@+id/btn_cmd_114_sample"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#1abc9c"
+                    android:enabled="false"
+                    android:text="114 写入下载块-sample"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_cmd_114_smprl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#1abc9c"
+                    android:enabled="false"
+                    android:text="114 写入下载块-smprl"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_cmd_114_pkgrl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#1abc9c"
+                    android:enabled="false"
+                    android:text="114 写入下载块-pkgrl"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_cmd_114_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#e67e22"
+                    android:enabled="false"
+                    android:text="🎵 一键下载所有文件 (smprl+pkgrl+sample)"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_cmd_74"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#1abc9c"
+                    android:enabled="false"
+                    android:text="74 读取canbin信息"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_cmd_114_canbin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#1abc9c"
+                    android:enabled="false"
+                    android:text="74 写入canbin"
+                    android:textColor="#ffffff" />
+                <!-- 音效包音量控制区域 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="#34495e"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="🎵 音效包音量控制"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_volume_control"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#f39c12"
+                    android:enabled="false"
+                    android:text="打开音量控制面板"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_read_volumes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#e74c3c"
+                    android:enabled="false"
+                    android:text="读取当前音量设置"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_reset_volumes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#9b59b6"
+                    android:enabled="false"
+                    android:text="重置为默认音量"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_clear_log"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#95a5a6"
+                    android:text="清空日志"
+                    android:textColor="#ffffff" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

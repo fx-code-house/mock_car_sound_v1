@@ -1,0 +1,54 @@
+{
+	"result": true,
+	"items": [{
+		"id_car_serie": 301747,
+		"id_car_model": 20364,
+		"name": "300H (HEV)",
+		"id_car_generation": 10435
+	}, {
+		"id_car_serie": 50608,
+		"id_car_model": 20364,
+		"name": "AMG cabriolet 2-doors",
+		"id_car_generation": 10435
+	}, {
+		"id_car_serie": 50607,
+		"id_car_model": 20364,
+		"name": "AMG Coupe 2-doors",
+		"id_car_generation": 10435
+	}, {
+		"id_car_serie": 301939,
+		"id_car_model": 20364,
+		"name": "AMG S63 Sedan",
+		"id_car_generation": 10435
+	}, {
+		"id_car_serie": 50612,
+		"id_car_model": 20364,
+		"name": "AMG Sedan 4-doors",
+		"id_car_generation": 10435
+	}, {
+		"id_car_serie": 50609,
+		"id_car_model": 20364,
+		"name": "Cabriolet 2-doors",
+		"id_car_generation": 10435
+	}, {
+		"id_car_serie": 50611,
+		"id_car_model": 20364,
+		"name": "Coupe 2-doors",
+		"id_car_generation": 10435
+	}, {
+		"id_car_serie": 50613,
+		"id_car_model": 20364,
+		"name": "Maybach Sedan 4-doors",
+		"id_car_generation": 10435
+	}, {
+		"id_car_serie": 50610,
+		"id_car_model": 20364,
+		"name": "Sedan 4-doors",
+		"id_car_generation": 10435
+	}, {
+		"id_car_serie": 301949,
+		"id_car_model": 20364,
+		"name": "Sedan HEV",
+		"id_car_generation": 10435
+	}]
+}

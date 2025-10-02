@@ -1,0 +1,991 @@
+{
+  "extraction_summary": {
+    "total_texts_found": 1266,
+    "unique_texts": 192,
+    "chinese_texts": 155,
+    "english_texts": 37,
+    "ui_elements_by_type": {
+      "texts": 186,
+      "buttons": 0,
+      "groups": 170,
+      "shapes": 471,
+      "images": 0,
+      "symbols": 23,
+      "rectangles": 319,
+      "paths": 2
+    },
+    "total_ui_elements": 1171
+  },
+  "all_unique_texts": [
+    {
+      "text": "换车",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "确定",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "換車",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "完成",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "设置",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "系列",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "品牌",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "好的",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "提示",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "設置",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "自武",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "支持",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "形状",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "路径",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "编组",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "登录",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "下载",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "蒙版",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "我的",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "首页",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "控件",
+      "source": "A37E5689-D4A7-426A-97B6-30682016EE6E",
+      "type": "fast_extract"
+    },
+    {
+      "text": "我的车",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "sir",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "格式化",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "型號：",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "已連接",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "我的車",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "55%",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "怠速聲",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "聲浪3",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "聲浪1",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "聲浪2",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "椭圆形",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "mega",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "xv50",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "我的汽車",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "声音下载",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "聲浪音量",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "聲浪音頻",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "動態啟動",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "啟動咆哮",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "我的聲音",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "常用功能",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "更新軟件",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "演示模式",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "檢查更新",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "技術支持",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "車輛固件",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "登出設備",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "页面 1",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "蓝牙链接",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "编组 8",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "图层 1",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "编组 5",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "编组 3",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "编组 2",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "编组 4",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "形状结合",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "聲浪設置",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "编组备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "自武备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "音量下载",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "图层 0",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "编组 7",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "编组 6",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "9:41",
+      "source": "A37E5689-D4A7-426A-97B6-30682016EE6E",
+      "type": "fast_extract"
+    },
+    {
+      "text": "dai6：",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "Camry",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "輸入新設備",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "回火放炮聲",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "開啟啟動聲",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "關閉啟動聲",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "椭圆形备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "提示弹框2",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "提示弹框1",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "amg gt",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "请输入新设备",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "status",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "toydta",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "輸入新設備號",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "聲浪設置\\n",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "添加汽车声音",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 7",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 2",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 3",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 4",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 6",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 8",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 9",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 5",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "编组备份 3",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "编组备份 2",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "音量下载备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "技術支持备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "登出設備备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "编组 7备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "amg gle",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "mercury",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "mclaren",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "offline",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "请输入新设备号",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 14",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 16",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 15",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 17",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 10",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 18",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 12",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 13",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 11",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "椭圆形备份 2",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "声音调整-開啟",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 32",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 34",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 33",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 35",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "椭圆形备份 3",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "声音调整-關閉",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 36",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 37",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 38",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 39",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "矩形备份 21",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "hathback",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "1.0.0（0）",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "正在下載聲音資源",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "檢查更新备份 2",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "車輛固件备份 2",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "形状结合备份 22",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "形状结合备份 24",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "形状结合备份 23",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "形状结合备份 25",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "形状结合备份 26",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "yiwen-2备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "形状结合备份 18",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "形状结合备份 20",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "形状结合备份 19",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "形状结合备份 21",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "tiaojie备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "首页-点击发声样式",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "Scanning….",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "caidan-3备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "jinru-12备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "yiwen-2备份 2",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "xiazai-21备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "drive selett",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "首页-車輛  動態的文字",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "jinru-12备份 2",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "jinru-12备份 3",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "versedes·ber2",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "seden a-doors",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "amg gle coupe",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "mercedes-benz",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "sedan 4-doors",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "natire cantral",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "w168（1997-2001）",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "bluelcath sgral",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "versedes·ber2备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "sedan 4-doors备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "jishuzhichi-2备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "w222\\/c217\\/a217",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "w168 (2004-2008)",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "v168 (2004-2008)",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "spdrl lndiviulal",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "shengyin_shiti备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "cheshangguanli备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "jianchagengxin备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "Renault megane rs",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "Sign in with apple",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "shengyin_shiti备份 4",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "shengyin_shiti备份 2",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "shengyin_shiti备份 6",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "shengyin_shiti备份 3",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "Sign in with Google",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "jeep grand cherdkee",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "Renault megane rs备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "dengluzhuceguanbi备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "denglu-yonghuming备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "Active Sound Gateway",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "Renault megane rs·自我",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "由巡航控制按鈕+-切換聲音(不是每台車都",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "由車輛動態模式切換聲音(不是每台車型都有",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "由車輛動態模式切換聲音(不是每台車型都有支援)",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "由巡航控制按鈕+-切換聲音(不是每台車都有支援)",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "w168\\/v168 [face ift] (2001-2004)",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "iPhone X\\/Status Bars\\/Status Bar (Black)复制 5",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "wecom-temp-43489-238ea4dee97e0b9ed3940924d2dc6bea备份 2",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "9fcab95d5aab83fe5d6da12379509e5fb0e477a21bf05-wKeTlE备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "c76a5d6f430bcea5eaeed91120901ba608268c5f36fb6c-F43dxJ备份",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    },
+    {
+      "text": "beast Introduction to Automotive Simulated Sound and Detailed Content ntroduction to Automotive Simulated Sound and Detailed Content ntroduction to Automotive Simulated Sound and Detailed Content",
+      "source": "3A32758E-96E1-4F29-B73E-616E68E0C6DA",
+      "type": "fast_extract"
+    }
+  ],
+  "ui_element_counts": {
+    "texts": 186,
+    "buttons": 0,
+    "groups": 170,
+    "shapes": 471,
+    "images": 0,
+    "symbols": 23,
+    "rectangles": 319,
+    "paths": 2
+  }
+}

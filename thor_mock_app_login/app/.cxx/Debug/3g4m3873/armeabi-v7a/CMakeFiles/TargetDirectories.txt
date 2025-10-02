@@ -1,0 +1,3 @@
+/Users/apple/Desktop/thor_mock_app_three 3/app/.cxx/Debug/3g4m3873/armeabi-v7a/CMakeFiles/myapplication.dir
+/Users/apple/Desktop/thor_mock_app_three 3/app/.cxx/Debug/3g4m3873/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/apple/Desktop/thor_mock_app_three 3/app/.cxx/Debug/3g4m3873/armeabi-v7a/CMakeFiles/rebuild_cache.dir

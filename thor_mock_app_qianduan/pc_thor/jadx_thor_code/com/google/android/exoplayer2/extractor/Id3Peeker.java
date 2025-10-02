@@ -1,0 +1,42 @@
+package com.google.android.exoplayer2.extractor;
+
+import com.google.android.exoplayer2.metadata.Metadata;
+import com.google.android.exoplayer2.metadata.id3.Id3Decoder;
+import com.google.android.exoplayer2.util.ParsableByteArray;
+import java.io.EOFException;
+import java.io.IOException;
+
+/* loaded from: classes.dex */
+public final class Id3Peeker {
+    private final ParsableByteArray scratch = new ParsableByteArray(10);
+
+    public Metadata peekId3Data(ExtractorInput input, Id3Decoder.FramePredicate id3FramePredicate) throws IOException {
+        Metadata metadataDecode = null;
+        int i = 0;
+        while (true) {
+            try {
+                input.peekFully(this.scratch.getData(), 0, 10);
+                this.scratch.setPosition(0);
+                if (this.scratch.readUnsignedInt24() != 4801587) {
+                    break;
+                }
+                this.scratch.skipBytes(3);
+                int synchSafeInt = this.scratch.readSynchSafeInt();
+                int i2 = synchSafeInt + 10;
+                if (metadataDecode == null) {
+                    byte[] bArr = new byte[i2];
+                    System.arraycopy(this.scratch.getData(), 0, bArr, 0, 10);
+                    input.peekFully(bArr, 10, synchSafeInt);
+                    metadataDecode = new Id3Decoder(id3FramePredicate).decode(bArr, i2);
+                } else {
+                    input.advancePeekPosition(synchSafeInt);
+                }
+                i += i2;
+            } catch (EOFException unused) {
+            }
+        }
+        input.resetPeekPosition();
+        input.advancePeekPosition(i);
+        return metadataDecode;
+    }
+}

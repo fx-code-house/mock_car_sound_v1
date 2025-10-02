@@ -1,0 +1,267 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- BLE核心权限 -->
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:6:5-68
+12-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:6:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:7:5-74
+13-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:7:22-71
+14
+15    <!-- Android 12+ BLE权限 -->
+16    <uses-permission
+16-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:10:5-11:58
+17        android:name="android.permission.BLUETOOTH_SCAN"
+17-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:10:22-70
+18        android:usesPermissionFlags="neverForLocation" />
+18-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:11:9-55
+19    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+19-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:12:5-76
+19-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:12:22-73
+20    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+20-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:13:5-78
+20-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:13:22-75
+21
+22    <!-- 位置权限（BLE扫描需要） -->
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:16:5-79
+23-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:16:22-76
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:17:5-81
+24-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:17:22-78
+25
+26    <!-- BLE功能声明 -->
+27    <uses-feature
+27-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:20:5-22:35
+28        android:name="android.hardware.bluetooth_le"
+28-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:21:9-53
+29        android:required="true" />
+29-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:22:9-32
+30    <uses-feature
+30-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:23:5-25:35
+31        android:name="android.hardware.bluetooth"
+31-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:24:9-50
+32        android:required="true" />
+32-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:25:9-32
+33
+34    <!-- Internet permission for Google Sign-In -->
+35    <uses-permission android:name="android.permission.INTERNET" />
+35-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:28:5-67
+35-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:28:22-64
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+36-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:29:5-79
+36-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:29:22-76
+37
+38    <permission
+38-->[androidx.core:core:1.9.0] /Users/apple/.gradle/caches/8.13/transforms/915f286ae31b9c2f02776359039527fc/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+39        android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+39-->[androidx.core:core:1.9.0] /Users/apple/.gradle/caches/8.13/transforms/915f286ae31b9c2f02776359039527fc/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+40        android:protectionLevel="signature" />
+40-->[androidx.core:core:1.9.0] /Users/apple/.gradle/caches/8.13/transforms/915f286ae31b9c2f02776359039527fc/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+41
+42    <uses-permission android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+42-->[androidx.core:core:1.9.0] /Users/apple/.gradle/caches/8.13/transforms/915f286ae31b9c2f02776359039527fc/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+42-->[androidx.core:core:1.9.0] /Users/apple/.gradle/caches/8.13/transforms/915f286ae31b9c2f02776359039527fc/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+43
+44    <application
+44-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:31:5-80:19
+45        android:allowBackup="true"
+45-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:32:9-35
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.9.0] /Users/apple/.gradle/caches/8.13/transforms/915f286ae31b9c2f02776359039527fc/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+47        android:dataExtractionRules="@xml/data_extraction_rules"
+47-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:33:9-65
+48        android:debuggable="true"
+49        android:extractNativeLibs="true"
+50        android:fullBackupContent="@xml/backup_rules"
+50-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:34:9-54
+51        android:icon="@mipmap/ic_launcher"
+51-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:35:9-43
+52        android:label="@string/app_name"
+52-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:36:9-41
+53        android:roundIcon="@mipmap/ic_launcher_round"
+53-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:37:9-54
+54        android:supportsRtl="true"
+54-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:38:9-35
+55        android:theme="@style/Theme.MyApplication" >
+55-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:39:9-51
+56
+57        <!-- Login Activity - Main launcher -->
+58        <activity
+58-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:42:9-50:20
+59            android:name="com.example.myapplication.LoginActivity"
+59-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:43:13-42
+60            android:exported="true"
+60-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:44:13-36
+61            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+61-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:45:13-69
+62            <intent-filter>
+62-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:46:13-49:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:47:17-69
+63-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:47:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:48:17-77
+65-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:48:27-74
+66            </intent-filter>
+67        </activity>
+68
+69        <!-- Prototype Activities -->
+70        <activity
+70-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:54:9-57:72
+71            android:name="com.example.myapplication.HomeActivity"
+71-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:55:13-41
+72            android:exported="false"
+72-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:56:13-37
+73            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+73-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:57:13-69
+74        <activity
+74-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:59:9-62:72
+75            android:name="com.example.myapplication.SoundControlActivity"
+75-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:60:13-49
+76            android:exported="false"
+76-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:61:13-37
+77            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+77-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:62:13-69
+78        <activity
+78-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:64:9-67:72
+79            android:name="com.example.myapplication.ProfileActivity"
+79-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:65:13-44
+80            android:exported="false"
+80-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:66:13-37
+81            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+81-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:67:13-69
+82        <activity
+82-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:69:9-72:72
+83            android:name="com.example.myapplication.SettingsActivity"
+83-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:70:13-45
+84            android:exported="false"
+84-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:71:13-37
+85            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+85-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:72:13-69
+86        <activity
+86-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:74:9-77:72
+87            android:name="com.example.myapplication.TechSupportActivity"
+87-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:75:13-48
+88            android:exported="false"
+88-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:76:13-37
+89            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+89-->/Users/apple/Desktop/thor_mock_app_login 2/app/src/main/AndroidManifest.xml:77:13-69
+90        <activity
+90-->[com.google.android.gms:play-services-auth:21.0.0] /Users/apple/.gradle/caches/8.13/transforms/1cf9bc38bbc3c7c88f643446d727236d/transformed/play-services-auth-21.0.0/AndroidManifest.xml:23:9-27:75
+91            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+91-->[com.google.android.gms:play-services-auth:21.0.0] /Users/apple/.gradle/caches/8.13/transforms/1cf9bc38bbc3c7c88f643446d727236d/transformed/play-services-auth-21.0.0/AndroidManifest.xml:24:13-93
+92            android:excludeFromRecents="true"
+92-->[com.google.android.gms:play-services-auth:21.0.0] /Users/apple/.gradle/caches/8.13/transforms/1cf9bc38bbc3c7c88f643446d727236d/transformed/play-services-auth-21.0.0/AndroidManifest.xml:25:13-46
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-auth:21.0.0] /Users/apple/.gradle/caches/8.13/transforms/1cf9bc38bbc3c7c88f643446d727236d/transformed/play-services-auth-21.0.0/AndroidManifest.xml:26:13-37
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+94-->[com.google.android.gms:play-services-auth:21.0.0] /Users/apple/.gradle/caches/8.13/transforms/1cf9bc38bbc3c7c88f643446d727236d/transformed/play-services-auth-21.0.0/AndroidManifest.xml:27:13-72
+95        <!--
+96            Service handling Google Sign-In user revocation. For apps that do not integrate with
+97            Google Sign-In, this service will never be started.
+98        -->
+99        <service
+99-->[com.google.android.gms:play-services-auth:21.0.0] /Users/apple/.gradle/caches/8.13/transforms/1cf9bc38bbc3c7c88f643446d727236d/transformed/play-services-auth-21.0.0/AndroidManifest.xml:33:9-37:51
+100            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+100-->[com.google.android.gms:play-services-auth:21.0.0] /Users/apple/.gradle/caches/8.13/transforms/1cf9bc38bbc3c7c88f643446d727236d/transformed/play-services-auth-21.0.0/AndroidManifest.xml:34:13-89
+101            android:exported="true"
+101-->[com.google.android.gms:play-services-auth:21.0.0] /Users/apple/.gradle/caches/8.13/transforms/1cf9bc38bbc3c7c88f643446d727236d/transformed/play-services-auth-21.0.0/AndroidManifest.xml:35:13-36
+102            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+102-->[com.google.android.gms:play-services-auth:21.0.0] /Users/apple/.gradle/caches/8.13/transforms/1cf9bc38bbc3c7c88f643446d727236d/transformed/play-services-auth-21.0.0/AndroidManifest.xml:36:13-107
+103            android:visibleToInstantApps="true" />
+103-->[com.google.android.gms:play-services-auth:21.0.0] /Users/apple/.gradle/caches/8.13/transforms/1cf9bc38bbc3c7c88f643446d727236d/transformed/play-services-auth-21.0.0/AndroidManifest.xml:37:13-48
+104
+105        <activity
+105-->[com.google.android.gms:play-services-base:18.3.0] /Users/apple/.gradle/caches/8.13/transforms/6e052ba0c7f68b235b78aabdfba7037f/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+106            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+106-->[com.google.android.gms:play-services-base:18.3.0] /Users/apple/.gradle/caches/8.13/transforms/6e052ba0c7f68b235b78aabdfba7037f/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-base:18.3.0] /Users/apple/.gradle/caches/8.13/transforms/6e052ba0c7f68b235b78aabdfba7037f/transformed/play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-base:18.3.0] /Users/apple/.gradle/caches/8.13/transforms/6e052ba0c7f68b235b78aabdfba7037f/transformed/play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+109
+110        <meta-data
+110-->[com.google.android.gms:play-services-basement:18.3.0] /Users/apple/.gradle/caches/8.13/transforms/ea8a1006e7ae932fc56fc93b312061b0/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+111            android:name="com.google.android.gms.version"
+111-->[com.google.android.gms:play-services-basement:18.3.0] /Users/apple/.gradle/caches/8.13/transforms/ea8a1006e7ae932fc56fc93b312061b0/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+112            android:value="@integer/google_play_services_version" />
+112-->[com.google.android.gms:play-services-basement:18.3.0] /Users/apple/.gradle/caches/8.13/transforms/ea8a1006e7ae932fc56fc93b312061b0/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+113
+114        <provider
+114-->[androidx.emoji2:emoji2:1.2.0] /Users/apple/.gradle/caches/8.13/transforms/ad04361492cbf7e5442f6e550ecd2017/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+115            android:name="androidx.startup.InitializationProvider"
+115-->[androidx.emoji2:emoji2:1.2.0] /Users/apple/.gradle/caches/8.13/transforms/ad04361492cbf7e5442f6e550ecd2017/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+116            android:authorities="com.example.myapplication.androidx-startup"
+116-->[androidx.emoji2:emoji2:1.2.0] /Users/apple/.gradle/caches/8.13/transforms/ad04361492cbf7e5442f6e550ecd2017/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+117            android:exported="false" >
+117-->[androidx.emoji2:emoji2:1.2.0] /Users/apple/.gradle/caches/8.13/transforms/ad04361492cbf7e5442f6e550ecd2017/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+118            <meta-data
+118-->[androidx.emoji2:emoji2:1.2.0] /Users/apple/.gradle/caches/8.13/transforms/ad04361492cbf7e5442f6e550ecd2017/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+119-->[androidx.emoji2:emoji2:1.2.0] /Users/apple/.gradle/caches/8.13/transforms/ad04361492cbf7e5442f6e550ecd2017/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+120                android:value="androidx.startup" />
+120-->[androidx.emoji2:emoji2:1.2.0] /Users/apple/.gradle/caches/8.13/transforms/ad04361492cbf7e5442f6e550ecd2017/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+121            <meta-data
+121-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/apple/.gradle/caches/8.13/transforms/4341d6565d0b62fc7a741b169e2c9c68/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+122                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+122-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/apple/.gradle/caches/8.13/transforms/4341d6565d0b62fc7a741b169e2c9c68/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+123                android:value="androidx.startup" />
+123-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/apple/.gradle/caches/8.13/transforms/4341d6565d0b62fc7a741b169e2c9c68/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+124            <meta-data
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+125                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+126                android:value="androidx.startup" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+127        </provider>
+128
+129        <receiver
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+130            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+131            android:directBootAware="false"
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+132            android:enabled="true"
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+133            android:exported="true"
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+134            android:permission="android.permission.DUMP" >
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+135            <intent-filter>
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+136                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+137            </intent-filter>
+138            <intent-filter>
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+139                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+140            </intent-filter>
+141            <intent-filter>
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+142                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+143            </intent-filter>
+144            <intent-filter>
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+145                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/apple/.gradle/caches/8.13/transforms/f37953e370fd761fbca27773b71704e7/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+146            </intent-filter>
+147        </receiver>
+148    </application>
+149
+150</manifest>

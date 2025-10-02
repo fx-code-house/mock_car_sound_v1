@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home_bg_gradient">
+
+    <!-- Top Section with Car Image - fills 1/3 of screen -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <!-- Main Car Image - fills entire top section -->
+        <ImageView
+            android:id="@+id/main_car_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/car_main_new" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="我的聲音"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:shadowColor="#80000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2" />
+
+        <!-- Bell Icon in top right corner -->
+        <ImageView
+            android:id="@+id/bell_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#804FC3F7"
+            android:padding="8dp"
+            android:src="@drawable/ic_bell"
+            android:tint="#FFFFFF"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </RelativeLayout>
+
+    <!-- Top Rectangle Section - gray background with shadow -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="-25dp"
+        android:background="#E8E8E8"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp">
+
+        <!-- Top rectangle content area -->
+
+    </LinearLayout>
+
+    <!-- Middle Section - gray background with shadow for function components -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#E8E8E8"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="40dp">   <!-- 拉长 40dp -->
+
+        <!-- Function components area - can add content here later -->
+
+    </LinearLayout>
+
+    <!-- Bottom Navigation -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/bottom_nav_bg"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- 检查更新 -->
+
+        <!-- 车辆管理 -->
+        <LinearLayout
+            android:id="@+id/nav_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_update"
+                android:tint="#4FC3F7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="检查更新"
+                android:textColor="#4FC3F7"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nav_sound"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_vehicle"
+                android:tint="#4FC3F7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="车辆管理"
+                android:textColor="#4FC3F7"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <!-- ALPHAX Center Logo -->
+        <LinearLayout
+            android:id="@+id/nav_center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_center_new"
+                android:scaleType="centerCrop" />
+
+        </LinearLayout>
+
+        <!-- 技术支持 -->
+        <LinearLayout
+            android:id="@+id/nav_tech"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_support"
+                android:tint="#4FC3F7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="技术支持"
+                android:textColor="#4FC3F7"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <!-- 登出设备 -->
+        <LinearLayout
+            android:id="@+id/nav_profile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_logout"
+                android:tint="#4FC3F7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="登出设备"
+                android:textColor="#4FC3F7"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
